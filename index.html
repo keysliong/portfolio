@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Клаудик — Вацбеодер</title>
+  <meta name="description" content="Портфолио: Клаудик, вацбеодер." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Фоновое свечение -->
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Навигация -->
+  <header class="nav" id="nav">
+    <a class="logo" href="#hero">К<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">🌙</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <p class="eyebrow">Привет, я</p>
+    <h1 class="hero-title">Клаудик<span class="accent">Крутой</span></h1>
+    <p class="hero-sub">Вацбеодер — превращаю идеи в работающие продукты.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">Смотреть проекты</a>
+      <a href="#contact" class="btn btn-ghost">Связаться</a>
+    </div>
+  </section>
+
+  <!-- Обо мне -->
+  <section class="section" id="about">
+    <h2 class="section-title">Обо мне</h2>
+    <div class="card">
+      <p>Я — <strong>Клаудик Крутой</strong>, вацбеодер. Делаю классные штуки, слежу за деталями и не бросаю
+      проекты на полпути. Люблю чистый код, быстрые интерфейсы и людей, которые ценят качество.</p>
+    </div>
+  </section>
+
+  <!-- Навыки -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Навыки</h2>
+    <div class="grid">
+      <div class="skill">HTML / CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Git</div>
+      <div class="skill">UI / UX</div>
+      <div class="skill">Python</div>
+      <div class="skill">Вацбеодинг</div>
+    </div>
+  </section>
+
+  <!-- Проекты -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Проекты</h2>
+    <div class="projects">
+      <article class="project">
+        <div class="project-top"><span class="project-tag">Веб</span><h3>Личный сайт</h3></div>
+        <p>Адаптивный сайт-визитка с тёмной темой и плавной анимацией.</p>
+        <a href="#" class="project-link">Подробнее →</a>
+      </article>
+      <article class="project">
+        <div class="project-top"><span class="project-tag">Бот</span><h3>ВацБот</h3></div>
+        <p>Telegram-бот для автоматизации рутины и быстрых ответов.</p>
+        <a href="#" class="project-link">Подробнее →</a>
+      </article>
+      <article class="project">
+        <div class="project-top"><span class="project-tag">Скрипт</span><h3>Авто-вац</h3></div>
+        <p>Небольшая утилита на Python, экономящая часы работы.</p>
+        <a href="#" class="project-link">Подробнее →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Контакты</h2>
+    <div class="card contact">
+      <p>Хочешь посотрудничать или просто сказать привет — пиши!</p>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com" class="btn btn-primary">Написать письмо</a>
+        <a href="https://github.com/keysliong" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://t.me/username" class="btn btn-ghost" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © <span id="year"></span> Клаудик Крутой. Сделано с UltraCode Agent.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
